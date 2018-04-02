@@ -1,0 +1,12 @@
+.box{
+    height:50px;
+    width: 50px;
+    background-color: #bada55;
+    transition-property: width, background-color;
+    transition-duration: 2s;
+}
+
+.box:hover{
+    width: 150px;
+    background-color: #e84610;
+}
